@@ -1,0 +1,14 @@
+{
+        "name": "Bookmarks GTD",
+        "version": "0.0.1",
+        "description": "Extension to support GTD inbox style for browser bookmarks. It automatically creates directory for each day, so you can manage your inboxes during daily filtering session.",
+        "permissions": [
+               "bookmarks"
+        ],
+        "background": {
+                "scripts": ["./src/index.js"],
+                "persistent": true
+        },
+        "manifest_version": 2,
+        "content_security_policy": "script-src 'self' ; object-src 'self'"
+}
